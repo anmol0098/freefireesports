@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  color: white;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+h1 {
+  text-align: center;
+  color: #facc15;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #d1d5db;
+}
+
+.tournament-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.tournament-form label {
+  font-weight: bold;
+  color: #f9fafb;
+}
+
+.tournament-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1f2937;
+  color: white;
+  font-size: 1rem;
+}
+
+.tournament-form input::placeholder {
+  color: #9ca3af;
+}
+
+button {
+  padding: 12px;
+  background: #22c55e;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #16a34a;
+}
+
+.upi-info {
+  text-align: center;
+  margin-top: 15px;
+  background: #1e3a8a;
+  padding: 10px;
+  border-radius: 8px;
+  color: #facc15;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.upi-info span {
+  color: #fff;
+}
+
+.info {
+  margin-top: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.info h2 {
+  margin-bottom: 10px;
+  color: #f87171;
+}
+
+.info ul {
+  list-style: none;
+  line-height: 1.6;
+}
+.conditional-field {
+  display: none;
+}
+
